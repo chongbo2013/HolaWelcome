@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/getting_start_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/default_workspace_bg" />
+
+    <RelativeLayout
+        android:id="@+id/getting_start_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/getting_start_story_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="13.0dip"
+            android:drawableLeft="@drawable/info_icon"
+            android:drawablePadding="5.0dip"
+            android:textColor="#a0ffffff"
+            android:textSize="11.0dip"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/getting_start_market_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20.0dip" />
+
+        <ImageView
+            android:id="@+id/getting_start_logo"
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:src="@drawable/launcher_info_logo"
+            android:layout_below="@+id/getting_start_market_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="165dp" />
+
+        <ImageView
+            android:id="@+id/getting_start_name"
+            android:layout_width="98dp"
+            android:layout_height="56dp"
+            android:src="@drawable/launcher_info_name"
+            android:layout_below="@+id/getting_start_logo"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/getting_start_slogan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/getting_start_slogan"
+            android:textColor="#b2ffffff"
+            android:textSize="12.0sp"
+            android:layout_below="@+id/getting_start_name"
+            android:layout_alignLeft="@+id/getting_start_name"
+            android:layout_alignStart="@+id/getting_start_name" />
+
+        <TextView
+            android:id="@+id/getting_start_btn"
+            android:layout_width="64.0dip"
+            android:layout_height="64.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="45.0dip"
+            android:background="@drawable/getting_start_btn_bg"
+            android:gravity="center"
+            android:text="@string/getting_start_btn_txt"
+            android:textColor="#ffffffff"
+            android:textSize="18.0sp" />
+
+        <TextView
+            android:id="@+id/getting_start_tos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10.0dip"
+            android:gravity="top|left|center"
+            android:singleLine="true"
+            android:text="@string/getting_start_tos"
+            android:textColor="#ffffffff"
+            android:textSize="10.669983sp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

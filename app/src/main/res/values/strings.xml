@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HolaWelcome</string>
+    <string name="getting_start_slogan">Smaller, yet bigger</string>
+    <string name="getting_start_btn_txt">GO</string>
+    <string name="getting_start_tos">By continuing, you accept our %s</string>
+    <string name="getting_upgrade_btn_txt">START</string>
+    <string name="getting_upgrade_release_note_title">"What's New"</string>
+</resources>
